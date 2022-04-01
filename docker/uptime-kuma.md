@@ -1,0 +1,15 @@
+```yml
+version: "3.3"
+services:
+#--------------------------------------------------------------------------------------------#
+#                            Uptime Kuma - Uptime Monitoring Tool                            #
+#--------------------------------------------------------------------------------------------#
+  uptime-kuma:
+    container_name: uptime-kuma
+    image: 'louislam/uptime-kuma:1'
+    restart: unless-stopped
+    ports:
+      - '8004:3001'
+    volumes:
+      - '/data/docker/uptimekuma:/app/data'
+```

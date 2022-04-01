@@ -1,3 +1,4 @@
+```yml
 version: "3"
 services:
 #--------------------------------------------------------------------------------------------#
@@ -5,6 +6,7 @@ services:
 #--------------------------------------------------------------------------------------------#
   libreddit:
     container_name: libreddit
+    # libreddit:armv7 and libreddit:latest (Amd64) also available.
     image: spikecodes/libreddit:arm
     restart: unless-stopped
     ports:
@@ -16,3 +18,4 @@ services:
       - LIBREDDIT_DEFAULT_AUTOPLAY_VIDEOS=off # No autoplay
       - LIBREDDIT_DEFAULT_THEME=gold        # Gold
       - LIBREDDIT_DEFAULT_FRONT_PAGE=all    # r/all
+```

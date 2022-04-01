@@ -1,0 +1,14 @@
+# This is the docker-compose file I am using for archivebox. There are way more features you can add. (https://github.com/ArchiveBox/ArchiveBox)
+version: "2.4"
+
+services:
+    archivebox:
+        image: ${DOCKER_IMAGE:-archivebox/archivebox:master}
+        command: server --quick-init 0.0.0.0:8000
+        ports:
+            - "8007:8000"
+        environment:
+            - ALLOWED_HOSTS=*
+            - MEDIA_MAX_SIZE=750m
+        volumes:
+            - "./data:/data"
