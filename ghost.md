@@ -1,3 +1,4 @@
+```yml
 version: '3.1'
 
 services:
@@ -28,3 +29,4 @@ services:
       MYSQL_ROOT_PASSWORD: password
     volumes:
       - /data/docker/blog/db:/var/lib/mysql
+```
