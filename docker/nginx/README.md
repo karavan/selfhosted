@@ -6,10 +6,11 @@ server {
 
     listen 443 ssl;
 
-    root /config/www/sitename/public;
+    root /config/www/walkx.org/public;
     index index.html index.htm index.php;
 
     server_name _;
+
 
     ssl_certificate /config/keys/cert.crt;
     ssl_certificate_key /config/keys/cert.key;
@@ -17,7 +18,13 @@ server {
     client_max_body_size 0;
 
     location / {
-        try_files $uri $uri/ /index.html /index.php?$args =404;
+        try_files $uri $uri/ =404;
+    }
+
+    error_page 404 /404.html;
+    location = /404.html {
+        root /config/www/walkx.org/public;
+        internal;
     }
 
     location ~ ^(.+\.php)(.*)$ {
