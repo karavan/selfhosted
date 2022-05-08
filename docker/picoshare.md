@@ -9,7 +9,7 @@ services:
     image: mtlynch/picoshare
     restart: unless-stopped
     volumes:
-      - '/data/nas/shared-files/data'
+      - '/data/nas/shared-files:/data'
     environment:
       - PORT=3001
       - PS_SHARED_SECRET=YourPasswordHere
