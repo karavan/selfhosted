@@ -20,7 +20,7 @@
 I'm currently hosting all of my services on a [Raspberry Pi 4B 8GB](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-8gb).
 
 ### Storage
-- [1TB External SSD via USB](https://www.amazon.de/-/en/ElementsTM-External-Drive-Interface-Speed/dp/B097TTZD48)
+- [Samsung FIT Plus 256GB](https://www.amazon.de/-/en/Samsung-256GB-Flash-MUF-256AB-APC/dp/B07HPX38XC)
 - [Synology DS212](https://www.synology.com/en-global/support/download/DS212?version=6.2#docs)
 
 ### Software
