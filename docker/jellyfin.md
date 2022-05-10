@@ -5,6 +5,7 @@ services:
 #                                Jellyfin - Your own media system                            #
 #--------------------------------------------------------------------------------------------#
   nginx:
+    container_name: jellyfin
     image: "linuxserver/jellyfin:latest"
     restart: unless-stopped
     ports:
