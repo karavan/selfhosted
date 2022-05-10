@@ -5,7 +5,7 @@ services:
 #                             Dashdot - A modern server stat dashboard                       #
 #--------------------------------------------------------------------------------------------#
   dozzle:
-    container_name: Dashdot
+    container_name: dashdot
     image: mauricenino/dashdot:latest
     ports:
       - '8002:8080'
