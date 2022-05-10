@@ -10,7 +10,7 @@ services:
     image: spikecodes/libreddit:arm
     restart: unless-stopped
     ports:
-      - '8005:8080'
+      - '7010:8080'
     environment:
       - LIBREDDIT_DEFAULT_SHOW_NSFW=on      # Turn on 18+ content
       - LIBREDDIT_DEFAULT_USE_HLS=on        # HLS Video
