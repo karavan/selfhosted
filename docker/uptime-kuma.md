@@ -9,7 +9,7 @@ services:
     image: 'louislam/uptime-kuma:1'
     restart: unless-stopped
     ports:
-      - '8004:3001'
+      - '8003:3001'
     volumes:
       - '/data/docker/uptimekuma:/app/data'
 ```
