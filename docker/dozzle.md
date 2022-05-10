@@ -11,5 +11,5 @@ services:
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock'
     ports:
-      - '8006:8080'
+      - '8004:8080'
 ```
