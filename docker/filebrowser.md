@@ -5,6 +5,7 @@ services:
 #                   File Browser - Easy file management in your browser                      #
 #--------------------------------------------------------------------------------------------#
   filebrowser:
+    container_name: filebrowser
     image: filebrowser/filebrowser:latest
     restart: unless-stopped
     volumes:
