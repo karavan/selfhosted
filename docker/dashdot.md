@@ -8,7 +8,7 @@ services:
     container_name: dashdot
     image: mauricenino/dashdot:latest
     ports:
-      - '8002:8080'
+      - '8002:3001'
     restart: unless-stopped
     environment:
       DASHDOT_OVERRIDE_DISTRO: Ubuntu
