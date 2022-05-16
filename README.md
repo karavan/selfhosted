@@ -29,19 +29,3 @@ I'm currently hosting all of my services on a [Raspberry Pi 4B 8GB](https://www.
 
 ## Network Setup
 ![Network Diagram](/network-diagram.png)
-
-## What am I hosting?
-Find docker-compose files for all of these services in the docker folder.
-- [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox) - [(archives.walkx.org)](https://archives.walkx.org)
-- [Dozzle](https://github.com/amir20/dozzle)
-- [Filebrowser](https://github.com/filebrowser/filebrowser)
-- [Ghost](https://ghost.org) - [(blog.walkx.org)](https://blog.walkx.org)
-- [Jellyfin](https://github.com/jellyfin/jellyfin)
-- [Libreddit](https://github.com/spikecodes/libreddit) - [(r.walkx.org)](https://r.walkx.org)
-- [Navidrome](https://github.com/navidrome/navidrome)
-- [Nginx](https://github.com/nginxinc/docker-nginx) - [(walkx.org)](https://walkx.org)
-- [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager)
-- [Portainer](https://github.com/portainer/portainer)
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma) - [(up.walkx.org)](https://up.walkx.org)
-- [Watchtower](https://github.com/containrrr/watchtower)
-- More in the future...
